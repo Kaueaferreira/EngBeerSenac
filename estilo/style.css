@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(12deg, var(--color-primaria-1) 16.62%, var(--color-primaria-5) 85.61%);
+}
+
+/*  */
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background: linear-gradient(80deg,var(--color-primaria-5) 30%, var(--color-primaria-6) 80%) ;
+}
+
+.cabecalho-imagem{
+    height: 140px;
+    border-radius: 10%;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 50px;
+}
+.cabecalho-menu-item{
+    font-family: "Changa", sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+#mobile_btn {
+    display: none;
+}
+
+.cabecalho-menu-mobile{
+    display: none;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.6px solid var(--color-preto);
+    padding-top: 5%
+    
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#shape-principal{
+    background-color: var(--color-primaria-2);
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    border-radius: 20% 40%30% 0%;
+    left: 0;
+    z-index: -1;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: "Changa", sans-serif;
+    font-size: 5rem;
+    color: aliceblue;
+    font-weight: 500;
+    text-shadow: 0.1rem 0.1em 0.1em #00000077 ;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: "Concert One", sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    color: aliceblue;
+    text-shadow: 0.1rem 0.1em 0.1em #00000077 ;
+}
+
+.conteudo-principal-imagem{
+    height: 530px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.6px solid #ffffff;
+    padding-top: 48px;
+    font-family: "Concert One", sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    color: aliceblue;
+    text-shadow: 0.1rem 0.1em 0.1em #00000077;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: "Changa", sans-serif;
+    font-size: 22px;
+    color: aliceblue;
+    font-weight: 300;
+    text-shadow: 0.1rem 0.1em 0.1em #00000077 ;
+}
+
+.rodape{
+    padding-top: 10px;
+    border-top: 0.6px solid var(--color-primaria-1);
+    background: linear-gradient(80deg,var(--color-primaria-5) 30%, var(--color-primaria-6) 80%) ;
+}
+
+.rodape-imagem{
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1170px){
+
+}
