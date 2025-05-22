@@ -1,13 +1,13 @@
 .slider{
     margin: 0 auto;
-    width: 900px;
-    height: 900px;
+    width: 500px;
+    height: 500px;
     overflow: hidden;
 }
 
 .slides{
     width: 400%;
-    height: 900px;
+    height: 500px;
     display: flex;  
 }
 
@@ -22,12 +22,12 @@
 }
 
 .slide img{
-    width: 900px;
+    width: 500px;
 }
 
 .manual-navigation{
     position: relative;
-    width: 800px;
+    width: 400px;
     margin-top: -50px;
     display: flex;
     justify-content: center;
@@ -72,8 +72,8 @@
 
 .navigation-auto{
     position: absolute;
-    width: 800px;
-    margin-top: 850px;
+    width: 400px;
+    margin-top: 450px;
     display: flex;
     justify-content: center;
 }
@@ -98,60 +98,9 @@
     background-color: #fff;
 }
 
-/* Novo slider */
+/* Novo Slide */ 
 
 
-.slider2{
-    margin: 0 auto;
-    width: 900px;
-    height: 900px;
-    overflow: hidden;
-}
-
-.slides2{
-    width: 400%;
-    height: 900px;
-    display: flex;  
-}
-
-.slides2 input{
-    display: none;
-}
-
-.slide2{
-    width: 25%;
-    position: relative;
-    transition: 2s;
-}
-
-.slide2 img{
-    width: 900px;
-}
-
-.manual-navigation2{
-    position: relative;
-    width: 800px;
-    margin-top: -50px;
-    display: flex;
-    justify-content: center;
-}
-
-.manual-btn2{
-    border: 2px solid #fff;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.manual-btn2:not(:last-child)
-{
-    margin-right: 30px;
-}
-
-.manual-btn2:hover{
-    background-color: #fff;
-}
 #radio5:checked ~ .first{
     margin-left: 0%;
 }
@@ -165,38 +114,18 @@
     margin-left: -75%;
 }
 
-.navigation-auto2 div{
-    border: 2px solid #3c00ff;
-    padding: 5px;
-    border-radius:  10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.navigation-auto2{
-    position: absolute;
-    width: 800px;
-    margin-top: 850px;
-    display: flex;
-    justify-content: center;
-}
-
-.navigation-auto2 div:not(:last-child){
-    margin-right: 30px;
-}
-
-#radio5:checked ~ .navigation-auto2 .auto-btn5{
+#radio5:checked ~ .navigation-auto .auto-btn5{
     background-color: #fff;
 }
 
-#radio6:checked ~ .navigation-auto2 .auto-btn6{
+#radio6:checked ~ .navigation-auto .auto-btn6{
     background-color: #fff;
 }
 
-#radio7:checked ~ .navigation-auto2 .auto-btn7{
+#radio7:checked ~ .navigation-auto .auto-btn7{
     background-color: #fff;
 }
 
-#radio8:checked ~ .navigation-auto2 .auto-btn8{
+#radio8:checked ~ .navigation-auto .auto-btn8{
     background-color: #fff;
 }
