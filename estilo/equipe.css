@@ -1,0 +1,78 @@
+.membros{
+    background-color: azure;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 40px;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.equipe1{
+    min-width: calc(100vh-91px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    margin: 0 auto;
+}
+
+.membro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap: 18px;
+    width: 25%;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.nome-membro{
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.funcao-equipe{
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.imagem-equipe{
+    background-color: azure;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 40px;
+    width: 90%;
+    height: 90%;
+}
+
+.conteudo-equipe-titulo{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+.imagem-equipe img {
+    width: 70%;
+    left: 14%;
+    position: relative;
+    border-radius: 3%;
+    margin: 20px;
+
+    border: solid rgb(0, 0, 0);
+}

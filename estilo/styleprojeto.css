@@ -143,3 +143,15 @@
     border-radius: 40px;
     align-items: center;
 }
+
+.conteudo-projeto-terciario{
+    background-color: azure;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 40px;
+    align-items: center;
+}
