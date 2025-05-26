@@ -37,8 +37,9 @@ body{
     color: aliceblue;
 }
 
-#mobile_btn {
+.mobile_btn {
     display: none;
+
 }
 
 .cabecalho-menu-mobile{
@@ -109,14 +110,14 @@ body{
     padding-top: 48px;
     font-family: "Concert One", sans-serif;
     font-weight: 100;
-    font-size: 24px;
+    font-size: 3.5vw;
     color: aliceblue;
     text-shadow: 0.1rem 0.1em 0.1em #00000077;
 }
 
 .conteudo-secundario-paragrafo{
     font-family: "Changa", sans-serif;
-    font-size: 22px;
+    font-size: 2.5vw;
     color: aliceblue;
     font-weight: 300;
     text-shadow: 0.1rem 0.1em 0.1em #00000077 ;
@@ -135,5 +136,57 @@ body{
 }
 
 @media screen and (max-width: 1170px){
+    .cabecalho-imagem,
+    .cabecalho-menu {
+        display: none;
+    }
+
+
+    .mobile_btn{
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    
+    .cabecalho-menu-mobile.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cabecalho-menu-mobile{
+        display:flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+
+    .cabecalho-menu-mobile .cabecalho-menu-item{
+        list-style: none;
+        text-align: center;
+    }
+
+    .conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+    #shape-principal{
+    background-color: var(--color-primaria-2);
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    border-radius: 40% 40% 40% 40%;
+    left: 30%;
+    right: 0%;
+
+    z-index: -1;
+    }
+
 
 }
+

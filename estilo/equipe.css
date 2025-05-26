@@ -48,6 +48,10 @@ ul{
     font-size: 1rem;
 }
 
+.descricao-membro{
+    text-align: center;
+}
+
 .imagem-equipe{
     background-color: azure;
     margin-left: 5%;
@@ -64,7 +68,7 @@ ul{
     margin: 30px;
     display: flex;
     justify-content: center;
-    font-size: 4rem;
+    font-size: 4vw;
 }
 
 .imagem-equipe img {
@@ -73,6 +77,17 @@ ul{
     position: relative;
     border-radius: 3%;
     margin: 20px;
-
     border: solid rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 1170px){
+    .equipe1{
+        flex-direction: column;
+    }
+
+    .membro{
+        width: 85%;
+        padding: 20px;
+        margin: 10px; 
+    }
 }

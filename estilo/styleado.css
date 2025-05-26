@@ -74,12 +74,14 @@
 
 .lista{
     display: flex;
+    border: solid black;
+    padding: 10px;
 }
 
 .membros-conteudo{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: stretch;
     gap: 40px;
 }
 
@@ -87,4 +89,22 @@
 
     justify-items: center;
     padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1170px){
+
+    .membros-conteudo{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .membros{
+        margin: 0;
+        padding: 0;
+    }
+
+    .nomes{
+        display: flex;
+        flex-direction: column;
+    }
 }
