@@ -27,7 +27,7 @@
 
 .manual-navigation{
     position: relative;
-    width: 400px;
+    width: 500px;
     margin-top: -50px;
     display: flex;
     justify-content: center;
@@ -72,7 +72,7 @@
 
 .navigation-auto{
     position: absolute;
-    width: 400px;
+    width: 500px;
     margin-top: 450px;
     display: flex;
     justify-content: center;
@@ -256,5 +256,37 @@
 }
 
 #radio24:checked ~ .navigation-auto .auto-btn24{
+    background-color: #fff;
+}
+
+/* Novo Slide */ 
+
+
+#radio25:checked ~ .first{
+    margin-left: 0%;
+}
+#radio26:checked ~ .first{
+    margin-left: -25%;
+}
+#radio27:checked ~ .first{
+    margin-left: -50%;
+}
+#radio28:checked ~ .first{
+    margin-left: -75%;
+}
+
+#radio25:checked ~ .navigation-auto .auto-btn25{
+    background-color: #fff;
+}
+
+#radio26:checked ~ .navigation-auto .auto-btn26{
+    background-color: #fff;
+}
+
+#radio27:checked ~ .navigation-auto .auto-btn27{
+    background-color: #fff;
+}
+
+#radio28:checked ~ .navigation-auto .auto-btn28{
     background-color: #fff;
 }
