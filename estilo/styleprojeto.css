@@ -65,3 +65,81 @@
     line-height: 1.5;
 }
 
+.conteudo-projeto-secundario{
+    background-color: azure;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 40px;
+    align-items: center;
+}
+
+.conteudo-projeto-secundario-titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin: 20px;
+}
+
+.conteudo-projeto-secundario-p{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 40px;
+}
+
+.conteudo-projeto-secundario-subtitulo{
+    display: flex;
+    justify-content: center;
+    font-size: 1.9rem;
+    margin: 20px;
+}
+
+.item-fun-1 {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    border-radius: 40px;
+    align-items: center;
+}
+
+.item-fun img {
+    width: 100%; /* Ajusta a largura da imagem */
+    height: auto;
+    object-fit: cover; /* Garante que a imagem não distorça */
+    max-height: 300px; /* Limita a altura das imagens */
+    border-radius: 8px;
+}
+
+
+.fig{
+    font-size: 1.3rem;
+    color: var(--color-neutral-9);
+    display: flex;
+    justify-content: center;
+}
+
+.espacamento{
+    padding: 20px;
+}
+
+.item-fun-2 {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    border-radius: 40px;
+    align-items: center;
+}
