@@ -26,7 +26,7 @@
 }
 
 .conteudo-projeto-principal{
-    background-color: azure;
+    background-color: var(--color-primaria-4);
     justify-content: center;
     margin-left: 5%;
     margin-right: 5%;
@@ -41,17 +41,20 @@
     font-size: 3rem;
     display: flex;
     justify-content: center;
+    color: white;
 }
 .conteudo-projeto-principal-textos{
     margin: 100px;
     margin-top: 0px;
     border: 0.6px solid var(--color-primaria-1);
     padding-bottom: 20px;
+    color: white;
 }
 
 .conteudo-projeto-principal-subtitulo{
     font-size: 2rem;
     text-align: center;
+    color: white;
 }
 .conteudo-projeto-principal-texto{
     font-size: 1.5rem;
@@ -63,10 +66,11 @@
     justify-content: center;
     line-height: 1.5;
     text-align: center;
+    color: white;
 }
 
 .conteudo-projeto-secundario{
-    background-color: azure;
+    background-color: var(--color-primaria-4);
     justify-content: center;
     margin-left: 5%;
     margin-right: 5%;
@@ -82,6 +86,7 @@
     justify-content: center;
     font-size: 3rem;
     margin: 20px;
+    color: white;
 }
 
 .conteudo-projeto-secundario-p{
@@ -89,6 +94,7 @@
     justify-content: center;
     font-size: 1.5rem;
     margin: 40px;
+    color: white;
 }
 
 .conteudo-projeto-secundario-subtitulo{
@@ -96,6 +102,7 @@
     text-align: center;
     font-size: 1.8rem;
     margin: 20px;
+    color: white;
 }
 
 .item-fun-1 {
@@ -145,7 +152,7 @@
 }
 
 .conteudo-projeto-terciario{
-    background-color: azure;
+    background-color: var(--color-primaria-4);
     justify-content: center;
     margin-left: 5%;
     margin-right: 5%;

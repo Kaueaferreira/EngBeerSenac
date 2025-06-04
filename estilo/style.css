@@ -70,6 +70,10 @@ body{
     z-index: -1;
 }
 
+.imagem-divida{
+    display: flex;
+}
+
 .conteudo-principal-escrito{
     display: flex;
     flex-direction: column;
@@ -93,8 +97,15 @@ body{
     text-shadow: 0.1rem 0.1em 0.1em #00000077 ;
 }
 
+.imagembonita{
+    border-radius: 20px 100px 20px 100px;
+    border: 2px solid var(--color-primaria-2);
+    height: 530px;
+}
+
 .conteudo-principal-imagem{
     height: 530px;
+
 }
 
 .conteudo-secundario{
@@ -176,17 +187,15 @@ body{
     }
 
     #shape-principal{
-    background-color: var(--color-primaria-2);
-    width: 40%;
-    height: 70%;
-    position: absolute;
-    border-radius: 40% 40% 40% 40%;
-    left: 30%;
-    right: 0%;
-
-    z-index: -1;
+    display: none;
     }
 
-
+    .conteudo-principal-imagem, .imagembonita{
+        width: 70%;
+        height: 70%;
+        left: 0%;
+        position: relative;
+        margin: 20px;
+    }
 }
 

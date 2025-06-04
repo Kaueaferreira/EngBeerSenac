@@ -1,5 +1,5 @@
 .membros{
-    background-color: azure;
+    background-color: var(--color-primaria-4);
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 50px;
@@ -53,7 +53,7 @@ ul{
 }
 
 .imagem-equipe{
-    background-color: azure;
+    background-color: var(--color-primaria-4);
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 50px;
