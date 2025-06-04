@@ -86,9 +86,9 @@
 }
 
 .membros{
-
     justify-items: center;
     padding-bottom: 10px;
+    background-color: white;
 }
 
 @media screen and (max-width: 1170px){
