@@ -23,14 +23,14 @@ jobs:
       uses: docker/login-action@v2
       with:
         registry: https://mcr.microsoft.com/
-        username: ${{ secrets.AzureAppService_ContainerUsername_fc43626358ca4ac98ba677b8db8cdfa1 }}
-        password: ${{ secrets.AzureAppService_ContainerPassword_6ab6f90be8d84f7eab77a2cc0500b230 }}
+        username: ${{ secrets.AzureAppService_ContainerUsername_3ef1aa122196446e991e8b82e84ee4e1 }}
+        password: ${{ secrets.AzureAppService_ContainerPassword_f232185a2ed54beeae75af99eac8a72c }}
 
     - name: Build and push container image to registry
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: mcr.microsoft.com/${{ secrets.AzureAppService_ContainerUsername_fc43626358ca4ac98ba677b8db8cdfa1 }}/appsvc/staticsite:${{ github.sha }}
+        tags: mcr.microsoft.com/${{ secrets.AzureAppService_ContainerUsername_3ef1aa122196446e991e8b82e84ee4e1 }}/appsvc/staticsite:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
@@ -47,5 +47,5 @@ jobs:
       with:
         app-name: 'EngBeerCervejaria'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d83bd7e56f164d1392c2d62123ca6fd4 }}
-        images: 'mcr.microsoft.com/${{ secrets.AzureAppService_ContainerUsername_fc43626358ca4ac98ba677b8db8cdfa1 }}/appsvc/staticsite:${{ github.sha }}'
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_5fc070ce65b044938450ede7e0c664bb }}
+        images: 'mcr.microsoft.com/${{ secrets.AzureAppService_ContainerUsername_3ef1aa122196446e991e8b82e84ee4e1 }}/appsvc/staticsite:${{ github.sha }}'
